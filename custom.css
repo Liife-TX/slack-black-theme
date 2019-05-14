@@ -16,23 +16,23 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #DDD;
-   --background: #111;
-   --background-elevated: #222;
+   --primary: #04FF00;
+   --text: #04FF00;
+   --background: #000000;
+   --background-elevated: #000;
 
    /* These should be less important: */
-   --background-hover: rgba(255, 255, 255, 0.1);
+   --background-hover: rgba(4, 255, 0, 1);
    --background-light: #AAA;
    --background-bright: #FFF;
 
-   --border-dim: #666;
+   --border-dim: #000000;
    --border-bright: var(--primary);
 
-   --text-bright: #FFF;
+   --text-bright: #04FF00;
    --text-special: var(--primary);
 
-   --scrollbar-background: #000;
+   --scrollbar-background: #04FF00;
    --scrollbar-border: var(--primary);
 }
 
@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 /* Team Picker */
 .TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
    background-color: var(--background) !important;
-   box-shadow: var(--background) 1px 1px 25px;
+   box-shadow: var(--background) 10px 10px 25px;
    color: var(--text);
    z-index: 1;
 }
@@ -58,7 +58,7 @@ h1, h2, h3, h4 {
 /*nav.p-channel_sidebar {*/
 div.client_channels_list_container {
    background-color: var(--background-elevated) !important;
-   box-shadow: var(--background-elevated) 1px 1px 25px;
+   box-shadow: var(--background-elevated) 10px 10px 25px;
    color: var(--text);
    z-index: 1;
 }
@@ -156,7 +156,7 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
    border: solid var(--border-dim);
-   border-width: 1px 1px 1px 0;
+   border-width: 10px 10px 25px 0;
 }
 
 /*broken*/
